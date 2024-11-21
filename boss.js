@@ -1,11 +1,11 @@
-let nome = (Jett)
-let xp = (11000)
+let nome = "Jett"
+let xp = 15400
 
 
 let nivel;
 
 
-if (xp , 1000){
+if (xp < 1000){
     nivel = "Ferro";
 } else if (xp <= 2000) {
     nivel = "Bronze";
@@ -19,10 +19,10 @@ if (xp , 1000){
     nivel = "Ascendente";
 } else if (xp <= 10000){
     nivel = "Imortal";
-} else if (xp => 10001){
+} else if (xp >= 10001){
     nivel = "Radiante"
 }
 
 
-console.log(`Herói de nome ${nome} esta no nivem de ${nivel}`);
+console.log(`Herói de nome ${nome} esta no nivel de ${nivel}`);
 
